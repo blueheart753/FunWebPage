@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    border: 1px solid #000;
+}
+
+.nav> nav {
+    height: 100%;
+    border: 1px solid #000;
+}
