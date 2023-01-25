@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 .maincontainer {
@@ -18,7 +19,6 @@ header {
 .nav {
     display: flex;
     justify-content: end;
-    border: 1px solid #000;
 }
 
 .nav> nav {
