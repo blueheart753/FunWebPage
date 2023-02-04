@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/game.js" defer></script>
     <script src="./js/script.js" defer></script>
     <title>가위바위보 게임 | Rock Paper Scissors game</title>
 </head>
@@ -20,14 +21,23 @@
            </nav>
         </header>
         <section class="scoreBox">
-            <article class="Win"></article>
-            <article class="draw"></article>
-            <article class="lose"></article>
+            <article id="Win" class="ScoreBorad">
+                <p>Win : </p>
+                <span id="result"></span>
+            </article>
+            <article id="draw" class="ScoreBorad">
+                <p>draw : </p>
+                <span id="result"></span>
+            </article>
+            <article id="lose" class="ScoreBorad">
+                <p>lose : </p>
+                <span id="result"></span>
+            </article>
         </section>
         <section class="RSP">
-            <section class="Rock"></section>
-            <section class="Scissors"></section>
-            <section class="Paper"></section>
+            <button type="button" class="GameRSP" id="Scissors">가위</button> 
+            <button type="button" class="GameRSP" id="Rock">바위</button>            
+            <button type="button" class="GameRSP" id="Paper">보</button>
         </section>
     </div>
 </body>
